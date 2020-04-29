@@ -4,3 +4,5 @@
  * Date: 2020-04-29
  */
 
+\think\facade\Route::any('doc', "\\Api\\Doc\\DocController@index");
+
