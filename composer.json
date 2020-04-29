@@ -1,0 +1,29 @@
+{
+    "name": "alexzy228/think5_1-doc",
+    "description": "DOC for ThinkPHP5.1",
+    "type": "library",
+    "authors": [
+        {
+            "name": "alexzy",
+            "email": "1003057931@qq.com"
+        }
+    ],
+    "require": {
+        "topthink/think-helper": ">=1.0.4",
+        "topthink/think-installer": ">=1.0.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Api\\Doc\\": "src"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "extra": {
+        "think-config": {
+            "doc": "src/config.php"
+        }
+    }
+
+}
